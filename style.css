@@ -46,12 +46,17 @@ body {
 .header li, .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 16px;
 }
 
 button {
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 8px;
+    font-size: medium;
+    padding: 8px 28px;
+    font-weight: bold;
+    border: none;
 }
 
 .main {
