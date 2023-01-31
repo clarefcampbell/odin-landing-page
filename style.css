@@ -1,26 +1,67 @@
 body {
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
+/* This is the dark blue section at the top */
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    background-color: #1f2937;
+    margin: 0px;
+}
+
+/* The header is inside .hero*/
+.hero .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1f2937;
-    padding: 16px 64px;
 }
 
-ul {
+.header ul {
     display: flex;
     list-style: none;
     gap: 16px;
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
-.logo {
+.header .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
+
+/* .information is inside .hero*/
+.hero .information {
+    display: flex;
+    /*justify-content: space-between;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* make the information section children the same size */
+.hero .information > * {
+    flex: 1;
+}
+
+.header li, .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
