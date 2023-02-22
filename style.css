@@ -47,7 +47,7 @@ body {
     padding-bottom: 16px;
 }
 
-.hero button {
+.hero button, .signup button {
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 8px;
@@ -125,4 +125,47 @@ body {
     text-align: right;
     color:#1f2937;
     font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    padding: 80px 200px;
+    justify-content: center;
+}
+
+.signup .container {
+    display: flex;
+    background-color:#3882F6;
+    justify-content: space-between;
+    padding: 40px 100px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.signup .text {
+    font-size: 16px;
+    color:#f9faf8;
+    padding: 0px;
+}
+
+.signup .subtext {
+    font-size: 12px;
+    color:#e5e7eb;
+}
+
+.signup button {
+    border: #f9faf8;
+    border-style: solid;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer .text {
+    color:#f9faf8;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
 }
