@@ -109,4 +109,20 @@ body {
 }
 .quote {
     display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px 200px 40px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0px;
+}
+
+.quote .author {
+    text-align: right;
+    color:#1f2937;
+    font-weight: bold;
 }
